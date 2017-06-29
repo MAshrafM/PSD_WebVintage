@@ -1,0 +1,58 @@
+/* Header Section */
+#header-wrapper{
+  width: 100%;
+  height: 684px;
+  margin: 0;
+  background:{
+    image: url('../img/bg.jpg');
+    size: cover;
+    repeat: no-repeat;
+  } 
+  
+  /* Navbar */
+  .navbar{
+    width: 80%;
+    height: 70px;
+    line-height: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative; 
+    .nav-brand{ 
+      a{
+        font-family: 'Optien', 'Open Sans';
+        text-decoration: none;
+        color: white;
+        font-size: 26px;
+      }
+      .alt{
+        color: $prim;
+      }
+    }
+    .main-nav{
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      width: 60%;      
+      margin: 0;
+
+      li{
+        a{
+          font-size: 18px;
+          color: white;
+          text-decoration: none;
+          text-transform: uppercase;
+          font-weight: bold;
+          font-family: 'Shruti', 'Open Sans';
+          &:hover{
+            padding-bottom: 10px;
+            color: $prim;
+            border-bottom: 2px solid $prim;
+            transition: .5s;
+          }
+        }
+      }
+    }
+  }
+  
+}
