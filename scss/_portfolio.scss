@@ -33,6 +33,7 @@
     font-size: 22px;
     letter-spacing: 5;
   }
+  /* Projects */
   .projects{
     text-align: center;
     transform: skewY(-3deg);
@@ -67,12 +68,10 @@
             transition: .5s;
           }
         }      
-        
-        
       }
     }
   }
-  
+  /* Button Refactor */
   .call-to-action{
     transform: skewY(-3deg);
     margin-top: 60px;
