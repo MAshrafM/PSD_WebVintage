@@ -482,3 +482,82 @@ template {
       #header-wrapper .hero .social a:hover {
         transform: scale(1.1);
         transition: .5s; }
+
+/* Portfolio Section */
+#portfolio-wrapper {
+  width: 100%;
+  height: 900px;
+  background: linear-gradient(151deg, #f45538, #cb1d34);
+  transform: skewY(3deg);
+  position: relative;
+  top: -35px;
+  box-shadow: 0 1px 20px 5px black, inset 0 5px 6em -1em black; }
+  #portfolio-wrapper h2 {
+    text-align: center;
+    transform: skewY(-3deg);
+    padding-top: 50px;
+    font-family: 'Shruti', 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-size: 32px;
+    letter-spacing: normal;
+    margin: -10px 0 0 0; }
+  #portfolio-wrapper p {
+    text-align: center;
+    transform: skewY(-3deg);
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    font-family: 'Shruti', 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 5; }
+  #portfolio-wrapper .projects {
+    text-align: center;
+    transform: skewY(-3deg);
+    width: 66%;
+    margin: 20px auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    #portfolio-wrapper .projects .projects-row {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px; }
+      #portfolio-wrapper .projects .projects-row .project-item {
+        height: 261px;
+        text-align: center; }
+        #portfolio-wrapper .projects .projects-row .project-item img {
+          box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.6); }
+        #portfolio-wrapper .projects .projects-row .project-item .over {
+          width: 100%;
+          height: 100%;
+          background-color: #d82f36;
+          position: relative;
+          top: -265px;
+          opacity: 0;
+          cursor: pointer; }
+          #portfolio-wrapper .projects .projects-row .project-item .over:hover {
+            opacity: .4;
+            transition: .5s; }
+  #portfolio-wrapper .call-to-action {
+    transform: skewY(-3deg);
+    margin-top: 60px;
+    text-align: center; }
+    #portfolio-wrapper .call-to-action .btn-main {
+      width: 180px;
+      height: 60px;
+      background: none;
+      border: 2px solid white;
+      line-height: 30px; }
+    #portfolio-wrapper .call-to-action .btn {
+      font-family: 'Shruti', 'Open Sans', sans-serif;
+      font-size: 17px;
+      color: white;
+      text-transform: uppercase;
+      cursor: pointer; }
