@@ -1,4 +1,8 @@
 @import 'normalize';
+body{
+  height: 100vh;
+}
 @import 'type.scss';
 @import 'header.scss';
-@import 'portfolio.scss'
+@import 'portfolio.scss';
+@import 'footer.scss';

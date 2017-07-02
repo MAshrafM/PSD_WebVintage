@@ -389,6 +389,9 @@ template {
 [hidden] {
   display: none; }
 
+body {
+  height: 100vh; }
+
 @font-face {
   font-family: "Optien";
   src: url("../fonts/Optien.ttf"); }
@@ -491,7 +494,9 @@ template {
   transform: skewY(3deg);
   position: relative;
   top: -35px;
-  box-shadow: 0 1px 20px 5px black, inset 0 5px 6em -1em black; }
+  box-shadow: 0 1px 20px 5px black, inset 0 5px 6em -1em black;
+  /* Projects */
+  /* Button Refactor */ }
   #portfolio-wrapper h2 {
     text-align: center;
     transform: skewY(-3deg);
