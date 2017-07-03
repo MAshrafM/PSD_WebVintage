@@ -115,3 +115,39 @@
     }
   }
 }
+
+@media screen and (max-width: 650px){
+  #header-wrapper{
+    .navbar{
+      width: 95%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      .nav-brand{
+        margin: 0;
+        line-height: 30px;
+      }
+      .main-nav{
+        width: 95%;
+        line-height: 30px;
+        li{
+          a:hover{
+            padding-bottom: 1px;
+            color: $prim;
+            border-bottom: 2px solid $prim;
+            transition: .5s;
+          }
+        }
+      }
+    }
+    
+    .hero{
+      width: 95%;
+      .intro{
+        h1{
+          font-size: 32px;
+        }
+      }
+    }
+  }
+}

@@ -73,3 +73,26 @@
     }
   }
 }
+
+@media screen and (max-width: 650px){
+  #footer-wrapper{
+    height: 800px;
+    .row{
+      width: 95%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      .col{
+        width: 95%;
+        .info{
+          width: 50%;
+          margin: 0 auto;
+          .detail{
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}

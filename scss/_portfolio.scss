@@ -93,3 +93,20 @@
   }
   
 }
+
+@media screen and (max-width: 650px){
+  #portfolio-wrapper{
+    height: 2200px;
+    .projects{
+       width: 95%;
+      .projects-row{
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        .project-item{
+          margin: 10px auto;
+        }
+      }
+    }
+  }
+}
